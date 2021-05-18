@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: teal;
+}
+
+a{
+    text-decoration: none;
+    color: teal;
+    font-size: 18px;
+}
+a:hover{
+    
+    color: tomato;
+   
+}
+
+.wrapper__nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 15px 0;
+    width: 100vw;
+}
+
+.wrapper__nav:hover{
+     box-shadow: 0 0.4rem 1.4rem 0 rgba(26, 31, 28, 0.5);
+     transform: translateY(-0.1rem);
+     transition: transform 150ms;
+}
+
+.logo{
+    margin-left: 20px;
+    color: tomato;
+    font-size: 24px;
+}
+
+.logo:hover{
+    color: teal;
+}
+
+.menu{
+    margin-right: 100px;
+    
+}
+.wrapper__title{
+    margin-top: 50px;
+    color:aliceblue;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper__todo{
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    margin: 50px 0;
+}
+#doing{
+    background-color: orange;
+    padding: 40px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 50px 0;
+}
+#done{
+    background-color: rgb(0, 255, 179);
+    padding: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin: 50px 0;
+}
+.wrapper__todo:hover{
+   box-shadow: 0 0.4rem 1.4rem 0 rgba(26, 31, 28, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+
+.wrapper__todo__ltem{
+    border-radius: 8px;
+    background-color: tomato;
+    margin-top: 4px;
+    padding: 10px;
+}
+.doing__item{
+    border-radius: 8px;
+    background-color: #fff;
+    color: orange;
+    margin-top: 4px;
+    padding: 10px;
+}
+.done_item{
+    border-radius: 8px;
+    background-color: rgb(120, 136, 121);
+    color: orange;
+    margin-top: 4px;
+    padding: 10px;
+}
+.done_item label{
+    text-decoration: line-through;
+}
+.wrapper__todo__ltem:hover{
+   box-shadow: 0 0.4rem 1.4rem 0 rgba(26, 31, 28, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.wrapper__todo__ltem input[type="text"]{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    width: 25em;
+}
+.wrapper__todo__ltem input[type="button"]{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 3em;
+}
+
+.wrapper__todo__ltem input[type="button"]:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(26, 31, 28, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    background-color: teal;
+    color: aliceblue;
+}
+
+.wrapper__todo__ltem input[type="checkbox"]{
+    outline: none;
+    border: none;
+    padding: 10px;
+}
