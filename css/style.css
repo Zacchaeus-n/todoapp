@@ -2,11 +2,18 @@
     padding: 0;
     margin: 0;
 }
-
-body{
+.wrapper.todo{
     background-color: teal;
+    height: 100vh;
 }
-
+.wrapper.doing{
+    background-color: rgb(94, 199, 199);    
+    height: 100vh;
+}
+.wrapper.done{
+    background-color: rgb(139, 158, 158);
+    height: 100vh;
+}
 a{
     text-decoration: none;
     color: teal;
@@ -19,10 +26,12 @@ a:hover{
 }
 
 .wrapper__nav{
+    position: absolute;
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
     padding: 15px 0;
+    top: 0;
     width: 100vw;
 }
 
